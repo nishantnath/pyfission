@@ -1,4 +1,4 @@
-MIT License
+MIT License + Modified. Please READ CAREFULLY.
 
 Copyright (c) 2019 LeafGroup Ltd.
 
@@ -9,8 +9,13 @@ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
 furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+1. The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+2. The work was developed by the original contributors while employed by
+   Leafgroup Ltd (www.leafgroup.com) (previously DemandMedia Inc.). Any derivative
+   work off this project is suggested to contain the following citation:
+   `Nishant Nath, Aniket Shenoy, Leafgroup Ltd`.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,

@@ -66,6 +66,11 @@ python -m pyfission --src [] --dest [] sync --out_format []
 
 
 #### Installation
+```bash
+pip install pyfission
+```
+
+#### Contribution/Local installation
 1. Clone the repo
 ```bash
 $ git clone <final repo link to be added here>
@@ -73,7 +78,7 @@ $ git clone <final repo link to be added here>
 
 2. change the working directory to fission
 ```bash
-$ cd fission
+$ cd pyfission
 ```
 
 3. install python3 and the requirements if they don't exist
