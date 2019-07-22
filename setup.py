@@ -5,7 +5,6 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='pyFission',
-    # link to github page
     url='https://github.com/nishantnath/pyfission/',
     author='Nishant Nath, Aniket Shenoy',
     # author_email='',
