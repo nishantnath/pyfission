@@ -66,6 +66,11 @@ python -m pyfission --src [] --dest [] sync --out_format []
 
 
 #### Installation
+```bash
+pip install pyfission
+```
+
+#### Contribution/Local installation
 1. Clone the repo
 ```bash
 $ git clone <final repo link to be added here>
