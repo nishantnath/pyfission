@@ -15,6 +15,13 @@ The **pyfission** module has 2 methods of syncing tables -
 pyFission automatically detects and builds the schema definition for tables, including nested and repeated fields 
 for JSON-like schemas e.g:- BigQuery. Also, pyFission patches tables automatically if any new fields are added. 
 
+Currently supported DBs:
+* Redshift
+* BigQuery
+* MySQL
+* Postgres
+* Oracle
+* MSSQL
 
 Getting started
 ---------------
