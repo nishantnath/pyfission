@@ -5,6 +5,6 @@ pandas
 sqlalchemy
 pymysql
 pymssql
-pyodbc==4.0.24
+pyodbc
 cx_Oracle
 boto3
