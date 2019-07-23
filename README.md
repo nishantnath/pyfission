@@ -1,20 +1,23 @@
 # pyFission
 <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.6-green.svg"></a>
+<a target="_blank" href="https://github.com/nishantnath/pyfission/blob/develop/LICENSE.md" title="Python version"><img src="https://img.shields.io/pypi/l/pyfission.svg"></a>
+<a target="_blank" href="https://pypi.org/project/pyFission/" title="Python version"><img src="https://img.shields.io/pypi/v/pyfission.svg"></a>
 
-#### Description
+
 pyFission syncs tables/schemas across databases as defined in the **configs/fission.py** file. 
 If *src_table* and *src_schema* args are not provided, it will sync all tables and schemas specified in the 
 **fission.py** config file by summoning multiple bash commands in parallel. 
 
 The **pyfission** module has 2 methods of syncing tables -  
 1. full: truncate + full sync of table, as name suggests
-2. incremental: syncs changes based on primary key and replication key provided in *fission.py* config file
+2. incremental: syncs gichanges based on primary key and replication key provided in *fission.py* config file
 
 pyFission automatically detects and builds the schema definition for tables, including nested and repeated fields 
 for JSON-like schemas e.g:- BigQuery. Also, pyFission patches tables automatically if any new fields are added. 
 
 
-### Getting started
+Getting started
+---------------
 #### Usage
 * Modify **configs/custom_config.py** and **configs/fission.py** with DB creds and sync config respectively
 * Add service account private key files/secrets to **secrets_storage** dir if needed
@@ -65,7 +68,9 @@ python -m pyfission --src [] --dest [] sync --out_format []
 ```
 
 
-#### Installation
+Installation
+------------
+Get the latest release on [PyPi](https://pypi.org/project/pyFission/)
 ```bash
 pip install pyfission
 ```
