@@ -3,6 +3,9 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+with open('requirements.txt', 'r') as fh:
+    requirements = fh.read().splitlines()
+
 setuptools.setup(
     name='pyFission',
     url='https://github.com/nishantnath/pyfission/',
@@ -14,5 +17,6 @@ setuptools.setup(
     description='A tool to sync data across data sources',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    include_package_data=True
+    include_package_data=True,
+    install_requires=requirements,
 )
