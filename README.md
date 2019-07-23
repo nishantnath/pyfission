@@ -14,7 +14,8 @@ pyFission automatically detects and builds the schema definition for tables, inc
 for JSON-like schemas e.g:- BigQuery. Also, pyFission patches tables automatically if any new fields are added. 
 
 
-### Getting started
+Getting started
+---------------
 #### Usage
 * Modify **configs/custom_config.py** and **configs/fission.py** with DB creds and sync config respectively
 * Add service account private key files/secrets to **secrets_storage** dir if needed
@@ -65,7 +66,8 @@ python -m pyfission --src [] --dest [] sync --out_format []
 ```
 
 
-#### Installation
+Installation
+------------
 ```bash
 pip install pyfission
 ```
