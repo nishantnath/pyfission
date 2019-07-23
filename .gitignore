@@ -20,3 +20,9 @@ storage/*
 secrets_storage/*
 cache-directory/
 cache-directory/*
+build/
+build/*
+dist/
+dist/*
+pyFission.egg-info/
+pyFission.egg-info/*

@@ -12,7 +12,7 @@ setuptools.setup(
     author='Nishant Nath, Aniket Shenoy',
     # author_email='',
     packages=setuptools.find_packages(),
-    version='1.0',
+    version='1.0.2',
     license='MIT',
     description='A tool to sync data across data sources',
     long_description=long_description,
