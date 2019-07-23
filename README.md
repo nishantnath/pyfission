@@ -1,7 +1,8 @@
 # pyFission
 <a target="_blank" href="https://www.python.org/downloads/" title="Python version"><img src="https://img.shields.io/badge/python-%3E=_3.6-green.svg"></a>
-![PyPI - License](https://img.shields.io/pypi/l/pyfission.svg)
-![PyPI](https://img.shields.io/pypi/v/pyfission.svg)
+<a target="_blank" href="https://github.com/nishantnath/pyfission/blob/develop/LICENSE.md" title="Python version"><img src="https://img.shields.io/pypi/l/pyfission.svg"></a>
+<a target="_blank" href="https://pypi.org/project/pyFission/" title="Python version"><img src="https://img.shields.io/pypi/v/pyfission.svg"></a>
+
 
 pyFission syncs tables/schemas across databases as defined in the **configs/fission.py** file. 
 If *src_table* and *src_schema* args are not provided, it will sync all tables and schemas specified in the 
