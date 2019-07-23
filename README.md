@@ -68,6 +68,7 @@ python -m pyfission --src [] --dest [] sync --out_format []
 
 Installation
 ------------
+Get the latest release on [PyPi](https://pypi.org/project/pyFission/)
 ```bash
 pip install pyfission
 ```
