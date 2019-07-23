@@ -76,12 +76,12 @@ pip install pyfission
 $ git clone https://github.com/nishantnath/pyfission.git
 ```
 
-2. change the working directory to fission
+2. Change the working directory to fission
 ```bash
 $ cd pyfission
 ```
 
-3. install python3 and the requirements if they don't exist
+3. Install python3 and the requirements if they don't exist
 ```bash
 $ pip install -r requirements.txt
 ```
