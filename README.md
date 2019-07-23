@@ -73,7 +73,7 @@ pip install pyfission
 #### Contribution/Local installation
 1. Clone the repo
 ```bash
-$ git clone <final repo link to be added here>
+$ git clone https://github.com/nishantnath/pyfission.git
 ```
 
 2. change the working directory to fission
